@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Local Database">
+            <menu>
+                <item
+                    android:id="@+id/nav_athlete"
+                    android:title="Athletes"
+                    android:icon="@drawable/player48"/>
+                <item
+                    android:id="@+id/nav_sports"
+                    android:title="Squads"
+                    android:icon="@drawable/ic_sports"/>
+                <item
+                    android:id="@+id/nav_squads"
+                    android:title="Sports"
+                    android:icon="@drawable/teams48"/>
+
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Queries">
+            <menu>
+                <item
+                    android:id="@+id/nav_queries"
+                    android:title="Queries"
+                    android:icon="@drawable/ic_queries"/>
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Remote Database ">
+            <menu>
+                <item
+                    android:id="@+id/nav_firestore"
+                    android:title="FireStore "
+                    android:icon="@drawable/ic_firestore"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>

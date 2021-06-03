@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_image25"
+    tools:context=".SportInsert">
+
+    <EditText
+        android:id="@+id/insertSportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:ems="10"
+        android:hint="Insert Sport ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/insertNameSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Sport Name" />
+
+    <EditText
+        android:id="@+id/insertTypeSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Sport Type " />
+
+    <EditText
+        android:id="@+id/insertGenderSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:ems="10"
+        android:hint="Insert Sport Gender"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/insertSportSubmitButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_button"
+        android:text="INSERT" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:text="Complete the following texts with right
+details and press the button Insert . This action will add to database
+one particular Sport . "
+
+
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</FrameLayout>

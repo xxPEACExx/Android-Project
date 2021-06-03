@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".InsertFireStoreGames"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/android_image300"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="24dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Insert One Game Into Cloud FireStrore"
+        android:id="@+id/textView"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Insert Date"
+        android:textSize="20dp"
+        android:inputType="date"
+        android:ems="10"/>
+
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Insert City"
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText3"
+        android:hint="Insert Country"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText4"
+        android:hint="Insert SportID"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:ems="10"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText5"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:hint="Insert Home"
+        android:inputType="textCapWords"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText6"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Insert Away"
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText7"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Insert Score"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/GamesEditText8"
+        android:hint="Insert MatchID"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/GamesEditText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="Insert Sport Type "
+        android:textSize="20dp"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:text="Insert"
+        android:id="@+id/insertGamesSubmitButton"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

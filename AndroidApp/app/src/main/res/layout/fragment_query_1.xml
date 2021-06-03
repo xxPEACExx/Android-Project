@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android_image_firebase"
+    tools:context=".FireStoreQuery1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="FIRE"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/red"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/orange"
+            android:text="BASE" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titlequery"
+        android:textColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="*- Select From Collection The Document With ID
+'2' And Show All The Fields Of The Document . -*"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_marginTop="-20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            >
+
+            <TextView
+                android:id="@+id/txtqueryresult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Query Result"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

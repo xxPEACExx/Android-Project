@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android_image29"
+    tools:context=".SportDelete">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="You can Delete any Athlete from the Database
+. This immedietly Effect The Database By Deleting This Athlete By It'S Primary
+Key." />
+
+    <EditText
+        android:id="@+id/deleteSportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Sport ID "/>
+
+    <Button
+        android:id="@+id/deleteSportSubmitButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button_red"
+        android:text="DELETE "
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

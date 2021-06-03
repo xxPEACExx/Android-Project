@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textColorHint="@color/white"
+    android:background="@drawable/android_image8"
+    tools:context=".AthleteInsert">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/green"
+        android:textSize="18dp"
+        android:text="Complete the following texts with right
+details and press the button submit . This action add to database
+one athlete ."
+        />
+
+
+    <EditText
+        android:id="@+id/insertIDAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Insert Athlete ID"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:id="@+id/insertNameAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Insert Athlete Name" />
+
+    <EditText
+        android:id="@+id/insertSurenameAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Insert Athlete Surname" />
+
+    <EditText
+        android:id="@+id/insertAgeAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Insert Athlete Age"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/insertCityAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Insert Athlete City" />
+
+    <EditText
+        android:id="@+id/insertNationalityAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Insert Athlete Nationality" />
+
+    <EditText
+        android:id="@+id/insertSportIDAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Insert Athlete Sport ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/insertGenderAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Insert Athlete Gender" />
+
+
+
+    <Button
+        android:id="@+id/insertAthleteSubmitButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/rounded_button"
+        android:text="INSERT" />
+
+
+
+
+</FrameLayout>

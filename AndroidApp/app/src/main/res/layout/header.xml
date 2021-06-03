@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/yelloworange"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/nure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="15dp"
+        android:text="Nouredini Giourgen 144192"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skarlatos Stratos 174940 "
+        android:layout_marginTop="1dp"
+
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nikolopoulos Dimitris 175070"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/main"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+
+
+
+</LinearLayout>
