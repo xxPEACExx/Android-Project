@@ -1,0 +1,4 @@
+
+ACTIVITES / FRAGMENTS (PATH)
+
+AndroidApp/app/src/main/res/layout
